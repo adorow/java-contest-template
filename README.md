@@ -16,7 +16,7 @@ An important thing to note here is that all the classes and methods included her
 Instead, they were designed for use in programming competitions.
 The design goals for this project include:
 + Run fast, really, really fast;
-+ be minimalistic (do one thing, quick and well);
++ be minimalist (do one thing, quick and well);
 + be easy to tweak (if a specific condition needs to be met in some new use);
 + be easy to copy-paste into new code, or read-write from a paper, for a programming competition;
 + be intelligible, so that others can reason and understand what the code is supposed to do - avoid cryptic function names.
