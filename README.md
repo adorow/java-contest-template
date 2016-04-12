@@ -9,6 +9,7 @@ As Java can be quite slow for some important things, like I/O, especially when c
 This code evolved over the years, as I've learned new tricks, understood better how Java works under the hood, and worked on more and more in new problems, adding new helper methods and making fixes to existing code.
 
 _Javadocs_ were added for better clarification on the goals of some classes and methods.
+The code found here was also separated into specific classes, for easier understanding. In actual programming competitions what I would usually do was to actually copy-paste all the utilitary methods into the main class running the program.
 
 ## Notes and design goals
 
@@ -19,4 +20,5 @@ The design goals for this project include:
 + be minimalist (do one thing, quick and well);
 + be easy to tweak (if a specific condition needs to be met in some new use);
 + be easy to copy-paste into new code, or read-write from a paper, for a programming competition;
-+ be intelligible, so that others can reason and understand what the code is supposed to do - avoid cryptic function names.
++ be intelligible, so that others can reason and understand what the code is supposed to do - avoid cryptic function names;
++ use only standard Java libraries (in most competitions that's all we're allowed to do).
