@@ -21,4 +21,4 @@ The design goals for this project include:
 + be easy to tweak (if a specific condition needs to be met in some new use);
 + be easy to copy-paste into new code, or read-write from a paper, for a programming competition;
 + be intelligible, so that others can reason and understand what the code is supposed to do - avoid cryptic function names;
-+ use only standard Java libraries (in most competitions that's all we're allowed to do).
++ use only standard Java libraries (in most competitions that's all we're allowed to use).
