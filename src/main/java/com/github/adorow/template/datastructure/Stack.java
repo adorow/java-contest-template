@@ -1,7 +1,7 @@
 package com.github.adorow.template.datastructure;
 
 /**
- * Standard Stack implementation.<br/>
+ * Standard bounded stack implementation.<br/>
  * This implementation does not check for any boundaries when executing modifying operations, is the user's responsibility to check those whenever necessary.
  */
 public class Stack<T> {
@@ -10,7 +10,7 @@ public class Stack<T> {
     private int len;
 
     /**
-     * Creates a new Stack of a fixed size.
+     * Creates a new stack of a fixed size.
      * @param size the maximum number of elements this Stack can hold.
      */
     public Stack(int size) {

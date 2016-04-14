@@ -1,7 +1,7 @@
 package com.github.adorow.template.datastructure;
 
 /**
- * Standard Stack implementation that holds {@code int}s.<br/>
+ * Standard bounded stack implementation that holds {@code int}s.<br/>
  * This implementation does not check for any boundaries when executing modifying operations, is the user's responsibility to check those whenever necessary.
  */
 public class IntStack {
@@ -10,7 +10,7 @@ public class IntStack {
     private int len;
 
     /**
-     * Creates a new Stack of a fixed size.
+     * Creates a new stack of a fixed size.
      * @param size the maximum number of elements this Stack can hold.
      */
     public IntStack(int size) {
