@@ -1,0 +1,7 @@
+SieveOfErastosthenes.calculateUpTo(1000): 0ms
+SieveOfErastosthenes.calculateUpTo(10000): 1ms
+SieveOfErastosthenes.calculateUpTo(100000): 8ms
+SieveOfErastosthenes.calculateUpTo(1000000): 24ms
+SieveOfErastosthenes.calculateUpTo(10000000): 102ms
+SieveOfErastosthenes.calculateUpTo(100000000): 1651ms
+SieveOfErastosthenes.calculateUpTo(1000000000): 16170ms
