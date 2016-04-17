@@ -31,7 +31,6 @@ public class IO {
         useStdOut();
     }
 
-
     // INPUT CHECKS
 
     // is the character minus (-)
@@ -109,7 +108,6 @@ public class IO {
         return false;
     }
 
-
     /**
      * Tells whether there is still some input to be read.
      */
@@ -136,6 +134,7 @@ public class IO {
 
     /**
      * Takes a file and uses it as input from this point on.
+     *
      * @param filename the file to be used as input.
      * @throws FileNotFoundException if the given file does not exist.
      */
@@ -152,6 +151,7 @@ public class IO {
 
     /**
      * Takes a file and uses it as output from this point on.
+     *
      * @param filename the file to be used as output.
      * @throws FileNotFoundException if the given file does not exist.
      */
@@ -226,7 +226,7 @@ public class IO {
      */
     public char readChar() throws IOException {
         int cur;
-        for (;;) {
+        for (; ; ) {
             cur = read();
             if (cur == EOF)
                 return 0;
@@ -412,7 +412,7 @@ public class IO {
     /**
      * Writes a {@code byte[]} into the output.
      *
-     * @param bytes the content.
+     * @param bytes  the content.
      * @param offset the initial position to write out.
      * @param length the amount of data to write out.
      */
@@ -433,7 +433,7 @@ public class IO {
     /**
      * Writes a {@code char[]} into the output.
      *
-     * @param chars the content.
+     * @param chars  the content.
      * @param offset the initial position to write out.
      * @param length the amount of data to write out.
      */
@@ -446,6 +446,7 @@ public class IO {
 
     /**
      * Writes out a number in the output.
+     *
      * @param value the number to be written.
      */
     public void writeOutNumber(int value) {
@@ -471,6 +472,7 @@ public class IO {
 
     /**
      * Writes out a number in the output.
+     *
      * @param value the number to be written.
      */
     public void writeOutNumber(long value) {
